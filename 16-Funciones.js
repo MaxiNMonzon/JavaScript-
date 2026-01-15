@@ -51,7 +51,7 @@ sumDef(5)
 sumDef(0 , 6)
 sumDef(b=9)
 
-// Retorno de valores
+// Retorno de valores  <------------
 
 function mult(a, b){
     return a*b
@@ -62,7 +62,7 @@ console.log(mult(7, 2))
 result = mult(5, 10)
 console.log(result)
 
-// Funciones anidadas
+// Funciones anidadas  <------------
 
 function externa () {
     console.log("Funcion externa")
@@ -74,7 +74,7 @@ function externa () {
 externa()  /* Primero llama a la funcion externa que esta por fuera, 
 y luego imprime la funcion interna que esta por dentro */
 
-// Funciones de orden superior
+// Funciones de orden superior  <------------
 // recibe otra función como parámetro, o devuelve una función
 
 function aplFunc(func, param){  // aplFunc es una función de orden superior porque recibe otra función
@@ -89,7 +89,7 @@ Func: referencia a la función que querés ejecutar. No la ejecuta todavía, sol
 -param es el dato que querés pasarle a esa función
 param pasa a ser "funcion orden....." */
 
-// forEach
+// forEach  <------------
 // es un bucle que recorre un array, set, map y lo ejecuta por cada uno de sus elementos 
 
 miArray = [1, 2, 3, 4]
