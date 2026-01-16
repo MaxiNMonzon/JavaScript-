@@ -70,3 +70,38 @@ return arrCom
 }
 console.log (comun ([1, 2, 3, 5, 6, 7], [5, 6, 7]))
 console.log (comun ([14, 22, 31, 56, 69, 72], [22, 14, 71]))
+
+/* - La función recibe dos arrays: a y b.
+- Se crea un array vacío arrCom para guardar los elementos comunes.
+- Se recorre el array a con un for...of.
+- En cada vuelta, la variable "numero" es un elemento de a.
+- Se pregunta si b.includes(numero) → verifica si ese número también está en b.
+- Si está, se agrega al array arrCom con arrCom.push(numero).
+- Cuando termina el for, se devuelve arrCom con todos los elementos comunes. */
+
+// funcion que reciba array de numeros y devuelva la suma de los pares
+
+function miArrNum (arrNum) {
+    let acum = 0
+
+    for (let sumP of arrNum){
+        if (sumP % 2 === 0){
+            acum = acum + sumP
+        }
+} return acum
+} 
+
+console.log (miArrNum ([2, 3, 4, 5, 6, 7, 8, 9]))
+console.log (miArrNum ([62, 83, 24, 15, 44, 93, 72, 54]))
+
+// funcion que reciba array de numeros y devuelva un nuevo array con cada nro elevado al cuadrado
+
+function miArrPot (arrPot) {
+    let nroE = []
+
+    for (let nro of arrPot){
+    nroE.push(nro**2)
+    } return nroE
+}
+
+console.log (miArrPot ([2, 3, 4, 5, 6, 7, 8, 9]).join(" - "))  // con el .join hace que se vea uno aldado del otro separado por un guion
