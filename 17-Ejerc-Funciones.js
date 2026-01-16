@@ -57,7 +57,7 @@ function miFuncArr (arr) {
 console.log (miFuncArr(["maxi", "nicolas", "monzon"]))
 console.log (miFuncArr(["moriii", "rosa", "leito"]))
 
-// crear una funcion que reciba 2 array y devuelva 1 array con los elementos comunes entre ellos
+// crear una funcion que reciba 2 array y devuelva 1 array con los elementos comunes entre ellos <------------
 
 function comun (a, b){
     let arrCom = []
@@ -79,7 +79,7 @@ console.log (comun ([14, 22, 31, 56, 69, 72], [22, 14, 71]))
 - Si está, se agrega al array arrCom con arrCom.push(numero).
 - Cuando termina el for, se devuelve arrCom con todos los elementos comunes. */
 
-// funcion que reciba array de numeros y devuelva la suma de los pares
+// funcion que reciba array de numeros y devuelva la suma de los pares <------------
 
 function miArrNum (arrNum) {
     let acum = 0
@@ -94,7 +94,7 @@ function miArrNum (arrNum) {
 console.log (miArrNum ([2, 3, 4, 5, 6, 7, 8, 9]))
 console.log (miArrNum ([62, 83, 24, 15, 44, 93, 72, 54]))
 
-// funcion que reciba array de numeros y devuelva un nuevo array con cada nro elevado al cuadrado
+// funcion que reciba array de numeros y devuelva un nuevo array con cada nro elevado al cuadrado <------------
 
 function miArrPot (arrPot) {
     let nroE = []
