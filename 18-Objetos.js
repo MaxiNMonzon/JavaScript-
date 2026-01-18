@@ -52,7 +52,7 @@ let persona2 = {
 console.log(persona2)
 persona2.camina()
 
-// Anidacion de objetos
+// Anidacion de objetos  <------------
 
 let persona3 = {
     nombre: "Maxi",
@@ -73,7 +73,7 @@ persona3.camina()
 console.log(persona3.Empleo)
 persona3.Empleo.trabajo()
 
-// Igualdad de objetos
+// Igualdad de objetos  <------------
 
 let persona4 = {
   nombre: 'Maximiliano',
@@ -90,13 +90,13 @@ console.log(persona === persona4)
 
 console.log(persona.nombre == persona4.nombre)  // entra en juego objetos por valor y por referencia
 
-// Iteracion
+// Iteracion  <------------
 
  for (let key in persona4){
     console.log(key + ": " + persona4[key])
     } 
 
-// Funciones como obejtos
+// Funciones como obejtos  <------------
 //OJO NO ES BUENA PRACTICA
 
 function Persona(nombre, edad, email, licencia){  // no es una buena practica, deberia ser una clase pero asi es un objeto
