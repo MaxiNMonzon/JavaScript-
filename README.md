@@ -67,3 +67,4 @@ Ejemplos cotidianos:
 - Recorrer productos de un carrito.
 - Recorrer mensajes de un chat.
 - Recorrer resultados de una API.
+

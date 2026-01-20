@@ -85,7 +85,7 @@ console.log(jobNomb)
 
 // Propagacion(...)  <------------
 
-// Sintaxis arrays
+// Sintaxis arrays  <------------
 
 let miArray2 = [...miArray] // copia
 
@@ -94,13 +94,13 @@ let miArray3 = [...miArray, 5, 6]
 console.log(miArray2)
 console.log(miArray3)
 
-// Combinacion de arrays
+// Combinacion de arrays  <------------
 
 let miArray4 = [...miArray, ...miArray2, ...miArray3]
 
 console.log(miArray4)
 
-// Sintaxis de objetos
+// Sintaxis de objetos  <------------
 
 let persona4 = { ...person} // copia
 console.log(persona4)
