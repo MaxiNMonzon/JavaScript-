@@ -68,3 +68,14 @@ Ejemplos cotidianos:
 - Recorrer mensajes de un chat.
 - Recorrer resultados de una API.
 
+
+¿Que son los Modulos externos? 
+
+Son paquetes o librerías que vienen incluidas con Node.js o que se intala con npm.
+Permiten usar funciones ya hechas, sin tener que programarlas.
+Ejemplos:
+- os → info del sistema operativo
+- fs → leer y escribir archivos
+- http → crear servidores
+- path → manejar rutas
+- chalk → colores en consola (este se instala)
